@@ -68,12 +68,10 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E             &kp R                          &kp T                                                &kp Y         &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &lt 6 D           &kp F                          &kp G        &kp LS(LG(C_MUTE))           &kp MINUS  &kp H         &kp J  &kp K      &kp L    &kp ENTER
+&kp A             &kp S         &lt 5 D           &kp F                          &kp G        &kp LS(LG(C_MUTE))           &kp MINUS  &kp H         &kp J  &kp K      &kp L    &kp ENTER
 &mt LEFT_SHIFT Z  &kp X         &lt 3 C           &kp V                          &kp B        &kp C_VOICE_COMMAND          &kp SLASH  &kp N         &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp CAPS          &kp LEFT_ALT  &kp LEFT_CONTROL  &lt_to_layer_0 7 LEFT_COMMAND  &lt 1 SPACE  &lt_to_layer_0 2 ESCAPE      &lt 2 TAB  &lt 1 DELETE                             &lt 1 SPACE
+&kp CAPS          &kp LEFT_ALT  &kp LEFT_CONTROL  &lt_to_layer_0 6 LEFT_COMMAND  &lt 1 SPACE  &lt_to_layer_0 2 ESCAPE      &lt 2 TAB  &lt 1 DELETE                             &lt 1 SPACE
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         Utilities {
@@ -116,11 +114,13 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp RG(F1)  &kp RC(F4)  &kp RA(RG(LEFT))  &kp RA(RG(RIGHT))  &kp RG(R)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RG(A)   &kp RG(C)   &kp RG(V)         &kp RG(X)          &kp RG(Z)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RG(W)   &kp RG(F)   &trans            &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                       &trans
+&trans  &trans  &trans  &trans  &trans                                  &kp RG(F1)  &kp RC(F4)  &kp RA(RG(LEFT))  &kp RA(RG(RIGHT))  &kp RG(R)
+&trans  &trans  &trans  &trans  &trans  &kp LS(LG(C_MUTE))      &trans  &kp RG(A)   &kp RG(C)   &kp RG(V)         &kp RG(X)          &kp RG(Z)
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp RG(W)   &kp RG(F)   &trans            &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans                                                       &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         layer_6 {
