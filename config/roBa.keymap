@@ -97,7 +97,7 @@
 &trans  &trans  &trans  &trans  &trans                      &kp EXCLAMATION  &kp QUESTION   &kp LEFT_BRACKET      &kt RIGHT_BRACKET      &kp SLASH
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kt AT_SIGN      &kt HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kt UNDERSCORE
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp DOLLAR       &kp AMPERSAND  &kp LESS_THAN         &kp GREATER_THAN       &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                       &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                       &kp COLON
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
