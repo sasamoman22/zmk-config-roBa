@@ -85,10 +85,10 @@
 
         NUM {
             bindings = <
-&kp PLUS      &kp COMMA   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                                          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &kp ASTERISK
-&kp MINUS     &kp PERIOD  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LC(LA(KP_NUMBER_0))      &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &kp SLASH
-&kp ASTERISK  &kp EQUAL   &kp NUMBER_1  &kp NUMBER_2  &kp N3        &none                        &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp PERCENT
-&kp SLASH     &kp ENTER   &kp NUMBER_0  &trans        &trans        &trans                       &trans     &trans                                                  &kp AMPERSAND
+&kp PLUS      &kp COMMA   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                                          &kp N7  &kp N8  &kp N9  &kp PLUS   &kp ASTERISK
+&kp MINUS     &kp PERIOD  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LC(LA(KP_NUMBER_0))      &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp MINUS  &kp SLASH
+&kp ASTERISK  &kp EQUAL   &kp NUMBER_1  &kp NUMBER_2  &kp N3        &none                        &kp COMMA  &kp N1  &kp N2  &kp N3  &kp N0     &kp PERCENT
+&kp SLASH     &kp ENTER   &kp NUMBER_0  &trans        &trans        &trans                       &trans     &trans                             &kp AMPERSAND
             >;
         };
 
