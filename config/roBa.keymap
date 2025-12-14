@@ -114,10 +114,10 @@
 
         SCROLL {
             bindings = <
-&trans  &kp LG(LS(X))  &kp LG(B)  &kp LG(U)      &trans                                             &kp RG(F1)  &kp RC(F4)  &kp RA(RG(LEFT))  &kp RA(RG(RIGHT))  &kp RG(R)
-&trans  &kp LG(E)      &kp LG(D)  &trans         &trans             &kp LS(LG(C_MUTE))      &trans  &kp RG(A)   &kp RG(C)   &kp RG(V)         &kp RG(X)          &kp RG(Z)
-&trans  &kp LC(E)      &kp LC(D)  &kp LG(MINUS)  &kp LS(LG(EQUAL))  &trans                  &trans  &kp RG(W)   &kp RG(F)   &kp RG(T)         &kp RG(RS(H))      &trans
-&trans  &trans         &trans     &trans         &trans             &trans                  &trans  &trans                                                       &trans
+&trans  &kp LG(LS(X))  &kp LG(B)  &kp LG(U)      &trans                                              &kp RG(F1)  &kp RC(F4)  &kp RA(RG(LEFT))  &kp RA(RG(RIGHT))  &kp RG(R)
+&trans  &kp LG(E)      &kp LG(D)  &trans         &trans             &kp LS(LG(C_MUTE))       &trans  &kp RG(A)   &kp RG(C)   &kp RG(V)         &kp RG(X)          &kp RG(Z)
+&trans  &kp LC(E)      &kp LC(D)  &kp LG(MINUS)  &kp LS(LG(EQUAL))  &kp C_VOICE_COMMAND      &trans  &kp RG(W)   &kp RG(F)   &kp RG(T)         &kp RG(RS(H))      &trans
+&trans  &trans         &trans     &trans         &trans             &trans                   &trans  &trans                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
